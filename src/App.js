@@ -525,13 +525,28 @@ const PhotographyWebsite = () => {
               <div className="mt-8">
                 <h4 className="font-semibold text-gray-900 mb-4">Follow Me</h4>
                 <div className="flex space-x-4">
-                  <a href="#" className="w-10 h-10 bg-indigo-600 text-white rounded-full flex items-center justify-center hover:bg-indigo-700 transition-colors">
+                  <a 
+                    href="https://instagram.com/alexmorganphoto" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 bg-indigo-600 text-white rounded-full flex items-center justify-center hover:bg-indigo-700 transition-colors"
+                  >
                     <Instagram className="h-5 w-5" />
                   </a>
-                  <a href="#" className="w-10 h-10 bg-indigo-600 text-white rounded-full flex items-center justify-center hover:bg-indigo-700 transition-colors">
+                  <a 
+                    href="https://facebook.com/alexmorganphotography" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 bg-indigo-600 text-white rounded-full flex items-center justify-center hover:bg-indigo-700 transition-colors"
+                  >
                     <Facebook className="h-5 w-5" />
                   </a>
-                  <a href="#" className="w-10 h-10 bg-indigo-600 text-white rounded-full flex items-center justify-center hover:bg-indigo-700 transition-colors">
+                  <a 
+                    href="https://twitter.com/alexmorganphoto" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 bg-indigo-600 text-white rounded-full flex items-center justify-center hover:bg-indigo-700 transition-colors"
+                  >
                     <Twitter className="h-5 w-5" />
                   </a>
                 </div>
